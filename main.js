@@ -36,7 +36,6 @@ function goToNextSlide() {
 
 setInterval(goToNextSlide, 1000);
 
-
 document.querySelector('.prev').addEventListener('click', goToPrevSlide);
 document.querySelector('.next').addEventListener('click', goToNextSlide);
 
